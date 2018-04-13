@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/tjs101/QB_OCR_AI.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "AipBase", "AipOcrSdk", "IdcardQuality"
+  s.vendored_frameworks = "QB_OCR_AI/*.framework"
 
   s.requires_arc = true
 
