@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint QBFramework_IOS.podspec' to ensure this is a
+#  Be sure to run `pod spec lint lQBFramework_IOS.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "QB_OCR_AI"
-  s.version      = "1.0.0.0"
-  s.summary      = "百度OCR识别SDK."
+  s.name         = "QB_OCR_AI_DEBUG"
+  s.version      = "1.3.0.3"
+  s.summary      = "百度OCR识别SDK.2019-03-08"
 
-  s.homepage     = "https://github.com/tjs101/QBFramework_IOS"
+  s.homepage     = "https://github.com/tjs101/lQBFramework_IOS"
 
   s.license      = "MIT"
 
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
  
 
-  s.source       = { :git => "https://github.com/tjs101/QB_OCR_AI.git", :tag => "#{s.version}" }
+  s.source       = { :git => "", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "QB_OCR_AI/*.framework"
+  s.vendored_frameworks = "QB_OCR_AI_DEBUG/*.framework"
 
   s.requires_arc = true
 
