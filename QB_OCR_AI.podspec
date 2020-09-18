@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "QB_OCR_AI"
-  s.version      = "1.0.0.0"
-  s.summary      = "百度OCR识别SDK."
+  s.version      = "1.3.0.3"
+  s.summary      = "百度OCR识别SDK.2019-03-08"
 
   s.homepage     = "https://github.com/tjs101/QBFramework_IOS"
 
