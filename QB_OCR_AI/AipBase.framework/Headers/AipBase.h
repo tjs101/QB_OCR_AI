@@ -20,3 +20,4 @@ FOUNDATION_EXPORT const unsigned char AipBaseVersionString[];
 #import "AipOpenUDID.h"
 #import "AipTokenManager.h"
 #import "NSErrorHelper.h"
+#import "BDAip_U_U_I_DUtil.h"
